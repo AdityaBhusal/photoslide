@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(23, 23, 23);
+}
+.frame{
+    border-color: white;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+    margin:10%;
+    border-color: aliceblue;
+
+}
+img:hover{
+    transition:1s;
+    transform: rotate(5deg) scale(1.01);
+    
+    
+}
+.border{
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
